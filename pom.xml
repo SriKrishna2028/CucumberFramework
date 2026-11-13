@@ -86,7 +86,17 @@
                 <directory>src/test/resources</directory>
             </testResource>
         </testResources>
-    </build>
+    
+    <resources>
+        <resource>
+            <directory>src/test/java</directory>
+            <includes>
+                <include>**/*.feature</include>
+            </includes>
+        </resource>
+    </resources>
+</build>
+
 </project>
 
 
